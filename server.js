@@ -18,7 +18,7 @@ const useMongo = require('./data/mongouser')
 const message = require('./router/message')
 
 let cif = {
-    origin:'http://localhost/:3000',
+    origin:'http://49.234.96.80:4000',
     credentials: true,
     allowedHeaders:'Authorization',
     methods:['POST','GET']

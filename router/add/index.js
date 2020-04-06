@@ -17,7 +17,7 @@ const cors = require('cors');
 
 
 let cif = {
-    origin:'http://localhost:3000',
+    origin:'http://49.234.96.80:4000',
     methods: 'GET,HEAD,PUT,POST',
     allowedHeaders:'Content-Type',
     credentials: true,

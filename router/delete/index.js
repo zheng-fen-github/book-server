@@ -13,7 +13,7 @@ const arrDb = [jsDb,RsDb,HtDb,CsDb,NeDb,btDb];
 const multer = require('multer');
 const cors = require('cors');
 let cif = {
-    origin:'http://localhost:3000',
+    origin:'http://49.234.96.80:4000',
     credentials: true,
 }
 router.use(cors(cif));
